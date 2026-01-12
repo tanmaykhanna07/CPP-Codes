@@ -1,0 +1,18 @@
+//pointer to pointer
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a = 10;
+    int* ptr = &a;
+    int** ptr2 = &ptr;
+
+    cout << a << '\n';
+    cout << ptr << '\n';
+    cout << ptr2 << '\n';
+    
+
+    return 0;
+}
